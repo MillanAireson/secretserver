@@ -17,7 +17,7 @@ This solution is used to change multiple secrets to the same password as a Prima
     - A privileged Active Directory account and a corresponding secret that can run PowerShell on the Secret Server machine.
 - Download script form Thycotic github
     - https://github.com/thycotic-ps/secretserver/blob/main/dependency-changers/secretserver-linked-secrets/linkedSecretsDependency.ps1
-- Update linkedDependency.ps1 script
+- Update linkedSecretsDependency.ps1 script
     - Update line 6 to reflect the URL of your Secret Server Instance
 
 ## Setup
